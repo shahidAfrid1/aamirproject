@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&family=Stylish&family=Work+Sans:ital,wght@1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+main{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(145deg,#141e30,
+    #243b55);
+}
+
+main .hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10vw;
+}
+
+main h1{
+    text-align: center;
+    padding: 4vw;
+    font-size: 12vw;
+    font-family: 'Stylish', sans-serif;
+    outline: 1px solid black;  
+    -webkit-text-fill-color: white; 
+    letter-spacing: .5vw;
+}
+
+main h1 span{
+    -webkit-text-fill-color: rgb(145 240 235);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+main .hero .profile img{
+    width: 65vw;
+    height: 65vw;
+    border-radius: 50%;
+    margin: 10vw 0;
+    border: .5vw solid white;
+}
+
+main .hero .description p{
+    color: white;
+    font-size: 7vw;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+main .hero .description .text{
+    color: white;
+    font-size: 7vw;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+main .hero .description .title{
+    color: white;
+    font-size: 4vw;
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+    margin-top: 2vw;
+}
+
+main .hero .description .social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+}
+
+main .hero .description .social-links .link-image a img{
+    width: 15vw;
+    margin: 3vw;
+}
